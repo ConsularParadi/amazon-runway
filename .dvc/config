@@ -1,6 +1,5 @@
 [core]
-    analytics = false
-    autostage = true
     remote = origin
 ['remote "origin"']
-    url = s3://data-store-amazon-runway/storage/data
+    url = s3://data-store-amazon-runway/storage/
+    profile = s3
